@@ -5,6 +5,8 @@ A certificate for constant **1d** in Terence Tao's
 C_1d is the largest C with max_t |(f*f)(t)| ≥ C (∫f)² for every real f supported on [-1/4, 1/4],
 so every such f gives an upper bound.
 
+Submitted to the table in [teorth/optimizationproblems#374](https://github.com/teorth/optimizationproblems/pull/374).
+
 The file `c1d_n102400_1.4513064007.json` holds a step function with **n = 102400** equal cells on
 [-1/4, 1/4]. Its key `values` lists the signed cell heights. Each height is an IEEE binary64
 number, read as its exact binary rational.
@@ -97,6 +99,8 @@ pos   ok   (accepted)  every height doubled (scale invariant): ACCEPTED
 
 ## Credit
 
-Derived from the public certificates of open pull requests #372 and #371 on
-teorth/optimizationproblems. Found and prepared with AI assistance. No human mathematician has
-checked this value, and no independent party has replayed it.
+Derived from the public certificates of open pull requests
+[#372](https://github.com/teorth/optimizationproblems/pull/372) and
+[#371](https://github.com/teorth/optimizationproblems/pull/371) on teorth/optimizationproblems.
+Found and prepared with AI assistance. No human mathematician has checked this value, and no
+independent party has replayed it.
